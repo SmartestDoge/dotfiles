@@ -2993,6 +2993,8 @@ alias lsolddir="command ls -rthdl *(/Om[1,10]) .*(D/Om[1,10])"
 # some useful aliases
 #a2# Remove current empty directory. Execute \kbd{cd ..; rmdir \$OLDCWD}
 alias rmcdir='cd ..; rmdir $OLDPWD || cd $OLDPWD'
+#a2# Force Tmux to use 256 colors
+alias tmux='tmux -2'
 
 #a2# ssh with StrictHostKeyChecking=no \\&\quad and UserKnownHostsFile unset
 alias insecssh='ssh -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null"'
