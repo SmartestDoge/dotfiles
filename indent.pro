@@ -1,0 +1,1 @@
+-bad -br -brf -brs -c40 -cd40 -ce -i4 -l1000 -lp -nbc -nbfda -npcs -npsl -nsai -nsaw -nsc -nut -ts4 <in file> -o <out file>
